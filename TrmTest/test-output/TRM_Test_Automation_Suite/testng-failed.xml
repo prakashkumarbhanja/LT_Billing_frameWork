@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TRM_Test_Automation_Suite]">
+  <test name="TRM App Test Cases(failed)">
+    <classes>
+      <class name="tvd.trm.qa.testcases.Homepagetest">
+        <methods>
+          <include name="mousehover"/>
+          <include name="verifyloginpagetitletest"/>
+          <include name="setup"/>
+          <include name="subdivlabledisplay"/>
+          <include name="companynamelable"/>
+        </methods>
+      </class> <!-- tvd.trm.qa.testcases.Homepagetest -->
+      <class name="tvd.trm.qa.testcases.Loginpagetest">
+        <methods>
+          <include name="loginpage"/>
+          <include name="loginpagetitletest"/>
+          <include name="trmlogoimagetest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tvd.trm.qa.testcases.Loginpagetest -->
+    </classes>
+  </test> <!-- TRM App Test Cases(failed) -->
+</suite> <!-- Failed suite [TRM_Test_Automation_Suite] -->

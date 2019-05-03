@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="methods">
+  <test thread-count="5" name="Test" parallel="methods">
+    <classes>
+      <class name="tvd.trm.qa.testcases.Homepagetest"/>
+      <class name="tvd.trm.qa.testcases.Loginpagetest"/>
+      <class name="tvd.trm.qa.testcases.Lt_billingtest"/>
+      <class name="tvd.trm.qa.testcases.GenerateticketTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

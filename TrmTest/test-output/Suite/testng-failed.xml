@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="TRM_regression_group(failed)">
+    <groups>
+      <run>
+        <include name="regression_group"/>
+        <exclude name="trmlogoimagetest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="tvd.trm.qa.testcases.Loginpagetest">
+        <methods>
+          <include name="loginpage"/>
+          <include name="loginpagetitletest"/>
+        </methods>
+      </class> <!-- tvd.trm.qa.testcases.Loginpagetest -->
+    </classes>
+  </test> <!-- TRM_regression_group(failed) -->
+</suite> <!-- Failed suite [Suite] -->
